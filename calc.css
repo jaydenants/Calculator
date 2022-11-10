@@ -1,0 +1,42 @@
+.container{
+    display:flex;
+    justify-content: center;
+    margin-top:10vh;
+}
+
+.buttons {
+    display:grid;
+    grid-template-columns:auto auto auto auto;
+    width:40vw;
+    height:60vh;
+    
+    
+    
+}
+.button{
+    background-color:orange;
+    margin:0px;
+    padding:0px;
+    font-size:50px;
+
+}
+.button:hover{
+    filter:brightness(2);
+    cursor:pointer;
+}
+#col{
+    grid-column: 1/ span 2
+}
+#por{
+    grid-column: 3/ span 2
+}
+.nick{
+    background-color: rgb(62, 107, 152);
+    
+}
+.ben{
+    background-color: aliceblue;
+}
+input {
+    grid-column:1 / span 4;
+}
